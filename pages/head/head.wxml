@@ -20,4 +20,7 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <button class='enter' bindtap='TapToEnter'>Enter</button>
+  <view>\n</view>
+  <button class='enter' bindtap='TapToHtml'>click here to enter</button>
 </view>

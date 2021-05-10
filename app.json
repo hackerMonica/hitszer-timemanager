@@ -1,18 +1,19 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/head/head",
+    "pages/calendar/calendar",
+    "pages/logs/logs",
+    "pages/list/list"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "backgroundColor": "#fff",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
-
   "usingComponents": {
-      "component-calendar": "/calendar_v1"
+    "calendar": "/component/v2"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

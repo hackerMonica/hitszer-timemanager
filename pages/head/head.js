@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '时间管理小程序\n\n',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
@@ -43,6 +43,16 @@ Page({
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
+    })
+  },
+  TapToEnter(){
+    wx.navigateTo({
+      url:'/pages/calendar/calendar',
+    })
+  },
+  TapToHtml(){
+    wx.navigateTo({
+      url: '/pages/index.html',
     })
   }
 })
